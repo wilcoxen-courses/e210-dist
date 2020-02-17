@@ -123,7 +123,7 @@ that iterates through `hh_info` and appends `hh['inc']` to a list.
    quintile boundaries and call the resulting list `inc_cuts`. The call 
    should look like this:
    ```
-   inc_cuts = np.percentiles(incomes,[0,20,40,60,80]])
+   inc_cuts = np.percentile(incomes,[0,20,40,60,80])
    ```
    After the call `inc_cuts` will include 5 values: the minimum income for
    each quintile. The first will be the minimum income in the dataset, the 
