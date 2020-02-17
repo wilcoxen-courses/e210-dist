@@ -47,10 +47,7 @@ for rec in reader:
 #%%
 
 print( json.dumps(by_zone,indent=4) )
-    
-#
-#  Use of defaultdict
-#
+
 
 
     
