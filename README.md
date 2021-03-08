@@ -104,11 +104,11 @@ To help make the structure of the analysis clearer, the instructions below have 
 
    1. Set `key_by_type_quint` to a tuple consisting of `hh_rec['type']` and `hh_rec['quint']`. This will be used to group the data by type and quintile, with one group for each combination of `type` and `quint`.
 
-   1. Set `key_by_quint` to a tuple consisting of the string `"all"` and `hh['quint']`. This will be used to group the data purely by quintile without distinguishing by type.
+   1. Set `key_by_quint` to a tuple consisting of the string `"all"` and `hh_rec['quint']`. This will be used to group the data purely by quintile without distinguishing by type.
 
-   1. Set `key_by_type` to a tuple consisting of `hh['type']` and the string `"all"`. It will be used to group the data purely by type without distinguishing by quintile.
+   1. Set `key_by_type` to a tuple consisting of `hh_rec['type']` and the string `"all"`. It will be used to group the data purely by type without distinguishing by quintile.
 
-   1. Now use three statements to append `hh_rec['etc']` to the values of `grouped` for each of the three keys above. The statements will be very similar, differing only by the key. As you'll see below, this will let the script compute and report a wealth of data: the median ETR by type and quintile, the median ETR by type alone, and the median ETR by income quintile alone.
+   1. Now use three statements to append `hh_rec['etr']` to the values of `grouped` for each of the three keys above. The statements will be very similar, differing only by the key. As you'll see below, this will let the script compute and report a wealth of data: the median ETR by type and quintile, the median ETR by type alone, and the median ETR by income quintile alone.
 
 **G. Computing the median ETR for each group**
 
