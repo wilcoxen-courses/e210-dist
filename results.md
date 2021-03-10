@@ -26,7 +26,7 @@ TBD
 4. If an analyst failed to calculate the detailed results and looked only 
 at the ETRs by overall quintile (question 1), would they overstate or 
 understate the policy's progressivity or regressivity? Briefly explain. If 
-possible, also explain why happens using the insights above.
+possible, also explain why it happens using the insights above.
 
 TBD
 

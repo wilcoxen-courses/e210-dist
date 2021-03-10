@@ -92,7 +92,7 @@ To help make the structure of the analysis clearer, the instructions below have 
 
    1. Use `min_inc` and to loop over `inc_cuts`. Within the loop include an if statement that checks whether `hh_rec['inc']` is greater than or equal (`>=`) to `min_inc`. If so, add 1 to `quint`. That's all that will be in the for loop.
 
-   1. After the `min_inc` loop, `quint` will be the quintile where the household's income falls (where the first quintile is 1). Set `hh['quint']` to the string version of `quint`, which is obtained by calling `str()` on `quint`. Converting `quint` to a string is needed to facilitate printing the grouped results that will be computed below. See the tips section for details.
+   1. After the `min_inc` loop, `quint` will be the quintile where the household's income falls (where the first quintile is 1). Set `hh_rec['quint']` to the string version of `quint`, which is obtained by calling `str()` on `quint`. Converting `quint` to a string is needed to facilitate printing the grouped results that will be computed below. See the tips section for details.
 
 **F. Grouping the results by type and quintile**
 
