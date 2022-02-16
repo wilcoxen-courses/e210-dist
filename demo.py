@@ -1,8 +1,9 @@
-#! /bin/python3
-#  Spring 2021 (PJW)
-#
-#  Illustrate grouping and aggregation
-#
+"""
+demo.py
+Spring 2022 PJW
+
+Illustrate grouping and aggregation
+"""
 
 import csv
 import numpy as np
@@ -25,7 +26,8 @@ lines = [
     ]
 
 #
-#  Set up a DictReader to parse the data
+#  Set up a DictReader to parse the data. Notice that
+#  DictReader can read any iterable, not just files.
 #
 
 reader = csv.DictReader(lines)
