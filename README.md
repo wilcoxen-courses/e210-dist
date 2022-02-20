@@ -26,7 +26,7 @@ To help make the structure of the analysis clearer, the instructions below have 
 
 1. Include the line below to import function `defaultdict()` from the `collections` module.
 
-    ```
+    ```python
     from collections import defaultdict
     ```
 
@@ -81,7 +81,7 @@ To help make the structure of the analysis clearer, the instructions below have 
    inc_cuts = np.percentile(incomes,[0,20,40,60,80])
    ```
 
-1. Now we'll calculate the ETR for each household, and also record each household's income quintile while we're at it. Start by creating a variable called `pd1` that is equal to 53.35 and one called `pd2` equal to `55.27`. Then create a variable called `dp` that is equal to `pd2` - `pd1`.
+1. Now we'll calculate the ETR for each household, and also record each household's income quintile while we're at it. Start by creating a variable called `pd1` that is equal to `53.35` and one called `pd2` equal to `55.27`. Then create a variable called `dp` that is equal to `pd2` - `pd1`.
 
 1. Next, use `hh_rec` to loop over the values of `hh_data`. Within the loop do the following:
 
